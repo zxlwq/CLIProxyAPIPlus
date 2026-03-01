@@ -1,3 +1,4 @@
+# 登录密钥环境变变量：MANAGEMENT_PASSWORD
 # CLIProxyAPI Plus
 
 English | [Chinese](README_CN.md)
