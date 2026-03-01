@@ -24,6 +24,8 @@ COPY --from=builder ./app/CLIProxyAPIPlus /CLIProxyAPI/CLIProxyAPIPlus
 
 COPY config.example.yaml /CLIProxyAPI/config.example.yaml
 
+COPY config.example.yaml /CLIProxyAPI/config.yaml
+
 WORKDIR /CLIProxyAPI
 
 EXPOSE 8317
