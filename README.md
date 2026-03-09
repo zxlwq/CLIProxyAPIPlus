@@ -1,3 +1,5 @@
+
+# 管理页登录环境变量：MANAGEMENT_PASSWORD
 # CLIProxyAPI Plus
 
 English | [Chinese](README_CN.md)
@@ -17,3 +19,8 @@ If you need to submit any non-third-party provider changes, please open them aga
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+# CLIProxyAPI Plus版本更新
+下载
+Releases发布新版本
+# 管理中心版本更新
+下载management.html [Cli-Proxy-API-Management-Center](https://github.com/router-for-me/Cli-Proxy-API-Management-Center/releases)
