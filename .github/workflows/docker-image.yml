@@ -26,6 +26,10 @@ jobs:
     steps:
       - name: 检出代码（amd64）
         uses: actions/checkout@v4
+      - name: 刷新模型 catalog
+        run: |
+          git fetch --depth 1 https://github.com/router-for-me/models.git main
+          git show FETCH_HEAD:models.json > internal/registry/models/models.json
       - name: 设置 Docker Buildx（amd64）
         uses: docker/setup-buildx-action@v3
       - name: 登录 DockerHub（amd64）
@@ -70,6 +74,10 @@ jobs:
     steps:
       - name: 检出代码（arm64）
         uses: actions/checkout@v4
+      - name: 刷新模型 catalog
+        run: |
+          git fetch --depth 1 https://github.com/router-for-me/models.git main
+          git show FETCH_HEAD:models.json > internal/registry/models/models.json
       - name: 设置 Docker Buildx（arm64）
         uses: docker/setup-buildx-action@v3
       - name: 登录 DockerHub（arm64）
