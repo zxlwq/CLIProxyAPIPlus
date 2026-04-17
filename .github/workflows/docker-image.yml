@@ -17,8 +17,8 @@ permissions:
 
 env:
   APP_NAME: CLIProxyAPI
-  DOCKERHUB_REPO: ${{ secrets.DOCKERHUB_USERNAME }}/cli-proxy-api-plus
-  GHCR_REPO: ghcr.io/${{ github.repository_owner }}/cli-proxy-api-plus
+  DOCKERHUB_REPO: ${{ secrets.DOCKERHUB_USERNAME }}/cli-api
+  GHCR_REPO: ghcr.io/${{ github.repository_owner }}/cli-api
 
 jobs:
   docker_amd64:
